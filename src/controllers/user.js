@@ -2,7 +2,6 @@ const userRouter = require('express').Router();
 const User = require('../models/user');
 const nodemailer = require('nodemailer');
 const config = require('../config');
-const { response } = require('../../server');
 
 // endpoint to view all users 
 
